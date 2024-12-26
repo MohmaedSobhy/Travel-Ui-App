@@ -1,0 +1,32 @@
+name: travel_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.6
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/core/utils
+  filename: app_images_assets.dart
+  field_prefix: null
